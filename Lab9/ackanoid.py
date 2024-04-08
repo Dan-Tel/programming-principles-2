@@ -73,7 +73,7 @@ def main():
   paddle_speed = 20
   paddle_width_change = 0.015
   paddle = pygame.Rect(W // 2 - paddle_width // 2, H - paddle_height - 30, paddle_width, paddle_height)
-  paddle_img = pygame.image.load("Lab8\images\paddle.png");
+  paddle_img = pygame.image.load("Lab9\images\paddle.png");
 
   # Ball
   ball_radius = 10
@@ -91,17 +91,17 @@ def main():
   game_score_rect.center = (210, 20)
 
   # Catching Sound
-  collision_sound = pygame.mixer.Sound("Lab8\\audio\catch.mp3")
+  collision_sound = pygame.mixer.Sound("Lab9\\audio\catch.mp3")
 
   # Block Settings
-  red_block = pygame.image.load("Lab8\images\\red-block.png")
-  orange_block = pygame.image.load("Lab8\images\orange-block.png")
-  green_block = pygame.image.load("Lab8\images\green-block.png")
-  cyan_block = pygame.image.load("Lab8\images\cyan-block.png")
-  blue_block = pygame.image.load("Lab8\images\\blue-block.png")
-  purple_block = pygame.image.load("Lab8\images\purple-block.png")
-  metal_block = pygame.image.load("Lab8\images\metal-block.png")
-  stretch_block = pygame.image.load("Lab8\images\stretch-block.png")
+  red_block = pygame.image.load("Lab9\images\\red-block.png")
+  orange_block = pygame.image.load("Lab9\images\orange-block.png")
+  green_block = pygame.image.load("Lab9\images\green-block.png")
+  cyan_block = pygame.image.load("Lab9\images\cyan-block.png")
+  blue_block = pygame.image.load("Lab9\images\\blue-block.png")
+  purple_block = pygame.image.load("Lab9\images\purple-block.png")
+  metal_block = pygame.image.load("Lab9\images\metal-block.png")
+  stretch_block = pygame.image.load("Lab9\images\stretch-block.png")
 
   map_1 = [
     "      OOR",
@@ -124,7 +124,7 @@ def main():
   color_id = {"R": 0, "O": 1, "G": 2, "C": 3, "B": 4, "P": 5, "M": 6, "S": 7}
 
   # Background
-  background = pygame.image.load("Lab8\images\\background.png")
+  background = pygame.image.load("Lab9\images\\background.png")
 
   # Game Over Screen
   lose_font = pygame.font.SysFont("comicsansms", 40)
